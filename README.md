@@ -33,16 +33,15 @@ Here's the link to the project: https://hyperskill.org/projects/46?track=1
 **Example 1**
 
 **Input:**  
-java Application -mode enc -key 7 -data "Welcome to Encryption-Decryption" -alg unicode
+CLI Arguments: -mode enc -key 7 -data "Welcome to Encryption-Decryption" -alg unicode
   
 **Output:**  
-The input is: Welcome to Encryption-Decryption  
-The result is: ^lsjvtl'{v'Lujy w{pvu4Kljy w{pvu
+^lsjvtl'{v'Lujy w{pvu4Kljy w{pvu
 
 **Example 2**
 
 **Input:**  
-java Application -mode enc -in road_to_treasure.txt -out protected.txt -key 7 -alg unicode
+CLI Arguments: -mode enc -in road_to_treasure.txt -out protected.txt -key 7 -alg unicode
 
 This command gets data from the file road_to_treasure.txt, encrypt the data with the key 5, create a file called protected.txt and write ciphertext to it.
 
@@ -53,8 +52,7 @@ The result is: )P'ovwl' v|'luqv 'slhyupun'qh}h)
 **Example 3**
 
 **Input:**  
-java Application -key 5 -alg shift -data "Bjqhtrj yt jshwduynts-ijhwduynts" -mode dec
+CLI Arguments: -key 5 -alg shift -data "Bjqhtrj yt jshwduynts-ijhwduynts" -mode dec
 
 **Output:**  
-The input is: Bjqhtrj yt jshwduynts-ijhwduynts  
-The result is: Welcome to encryption-decryption
+Welcome to encryption-decryption
